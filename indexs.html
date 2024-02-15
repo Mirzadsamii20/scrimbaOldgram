@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Image ID on Click</title>
+</head>
+<body>
+
+  <img src="image1.jpg" id="image1" alt="Image 1">
+  <img src="image2.jpg" id="image2" alt="Image 2">
+  <img src="image3.jpg" id="image3" alt="Image 3">
+
+  <script>
+    // Get all images
+    const images = document.querySelectorAll('img');
+
+    // Add click event listener to each image
+    images.forEach(image => {
+      image.addEventListener('click', function() {
+        // Get the id of the clicked image
+        const imageId = this.id;
+        console.log('Clicked image ID:', imageId);
+        // Do whatever you want with the image ID here
+      });
+    });
+  </script>
+
+</body>
+</html>
