@@ -1,48 +1,7 @@
 let likebtn= [document.getElementById('like0'),document.getElementById('like1'),document.getElementById('like2')];
 let likes = [document.getElementById('likes0'),document.getElementById('likes1'),document.getElementById('likes2')]
 let post0 = document.getElementById('post0');
-// let rumiOldLikes = rumiLikes.textContent;
-
-
-// likebtn0.addEventListener('click' ,like);
-
-// post0.addEventListener('dblclick' ,likeOnly);
-
-
-
-
-
-
-
-
-
-    function like(){
-
-    let srcAtt = likebtn0.getAttribute('src');
-    if(srcAtt.includes('icon')){
-
-    likebtn0.src = 'filledheart.png';
-    likebtn0.classList = 'rounded';
-    likes0.textContent = 'Likedy by you, shamstabrizi44 and 231323 others';
-    
-    }
-    else{
-    likebtn0.src = 'icon-heart.png'
-    likes0.textContent = 'Liked by shamstabrizi44 and 231323 others';
-
-    }
- }
-
-
- function likeOnly(){
-    let srcAtt = likebtn0.getAttribute('src');
-    if(srcAtt.includes('icon')){
-
-    likebtn0.src = 'filledheart.png';
-    likebtn0.classList = 'rounded';
-    likes0.textContent = 'Likedy by you, shamstabrizi44 and 231323 others';
- }
-}
+ 
 
 const images = document.querySelectorAll('img');
 
