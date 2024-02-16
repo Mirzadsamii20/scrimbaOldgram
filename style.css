@@ -22,11 +22,16 @@ body{
 
 header{
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
     padding: 15px 10px;
     border-bottom: 1px solid #C6C6C6;
-}
+    width:430px;
+    background-color: #fff; /* Set a background color to make the header opaque */
+    z-index: 1000; 
+
+    }
 .rounded{
     border-radius: 35%;
     width: 33px;
